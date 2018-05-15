@@ -9,7 +9,7 @@ license = "GPL-3.0"
 elastic-array = "0.10"
 heapsize = "0.4"
 ethereum-types = "0.3"
-keccak-hash = { version = "0.1.0", path = "../hash" }
-hashdb = { version = "0.1.1", path = "../hashdb" }
-plain_hasher = { path = "../plain_hasher" }
-rlp = { version = "0.2.1", path = "../rlp" }
+keccak-hash = "0.1.1"
+hashdb = { git="https://github.com/paritytech/parity" } # TODO: change to 0.1.2 as soon as the crate ownership is fixed – published 0.1.1 is outdated
+plain_hasher = { git="https://github.com/paritytech/parity" } # TODO: change to 0.1.1 as soon as the crate ownership is fixed
+rlp = "0.2.2"
